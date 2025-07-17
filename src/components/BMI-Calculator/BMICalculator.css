@@ -1,0 +1,95 @@
+.bmi-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+}
+
+.bmi-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffff;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #e0e0e0;
+}
+
+.btn-calculator {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-calculator:hover {
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
+
+.result-card {
+  margin: 30px;
+}
+
+.result-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.result-card h4 {
+  font-size: 1.2rem;
+}
+
+/* --- BMI Category Colors --- */
+.underweight {
+  color: #3498db; /* Blue */
+}
+
+.normal-weight {
+  color: #2ecc71; /* Green */
+}
+
+.overweight {
+  color: #f39c12; /* Orange */
+}
+
+.obese {
+  color: #e74c3c; /* Red */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
